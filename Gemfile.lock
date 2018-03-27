@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/zacwillis/willis_view_tool
-  revision: c79f636c6d1609345c5ada7f5d8a8e9a8833cc95
-  specs:
-    willis_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +185,7 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
+    willis_view_tool (0.1.0)
 
 PLATFORMS
   ruby
@@ -215,7 +210,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
-  willis_view_tool!
+  willis_view_tool (~> 0.1.0)
 
 BUNDLED WITH
    1.16.1

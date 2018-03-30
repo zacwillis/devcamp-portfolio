@@ -15,24 +15,15 @@
   <body>
     <%= link_to 'New Blog', new_blog_path if logged_in?(:site_admin) %>
     <%= render "shared/blog_nav" %>
-
     <div class="container">
       <div class="row">
         <%= yield %>
-
         <%= render "shared/blog_sidebar" %>
-
-        <!-- start of footer -->
-        <footer class="blog-footer">
-          <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-          <p>
-          <a href="#">Back to top</a>
-          </p>
-        </footer>
-        <!-- end of footer -->
-
-        <%= source_helper("blog") %>
       </div>
+
+      <%= render "shared/blog_footer" %>
+
+      <%= source_helper("blog") %>
     </div>
   </body>
 </html>

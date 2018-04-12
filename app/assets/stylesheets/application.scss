@@ -181,6 +181,7 @@ body {
 
 .app-card-container > .card {
   padding: 40px;
+  background-color: #e8e8e8
 }
 
 .profile-img {
@@ -189,4 +190,9 @@ body {
 
 .app-card-container a {
   color: orange;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

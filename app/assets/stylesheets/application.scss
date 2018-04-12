@@ -145,6 +145,10 @@ h6, .h6, {
   float: none;
 }
 
+.app-nav {
+  margin-bottom: 10px;
+}
+
 .app-nav span {
   margin-left: 15px;
   margin-right: 15px;
@@ -167,6 +171,7 @@ h6, .h6, {
 
 .app-footer {
   color: white;
+  text-align: center;
 }
 
 .tech-news {
@@ -200,15 +205,30 @@ h6, .h6, {
 }
 
 .app-card-container a {
-  color: orange;
+  color: #1dcaff;
 }
 
 .card-block {
   margin-top: 5px;
   margin-bottom: 5px;
+  padding: 20px;
+  background-color: #e8e8e8;
+  border: none;
 }
 
 .skill {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.cover-heading {
+  text-align: center;
+}
+
+.lead {
+  text-align: center;
+}
+
+.relevant-logo {
+  margin-right: 20px;
 }

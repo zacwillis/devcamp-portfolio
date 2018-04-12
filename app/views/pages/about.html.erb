@@ -27,54 +27,80 @@
       </div>
 
       <div class="col-md-8">
-        <p>The need for a bigger purpose and idea of a better future pushed me to pursue software development. I wanted to attain a specific skill set that people need in the world today. Becoming a software developer gave me just that. I am currently enrolled at Bottega Tech where I am learning Ruby, Rails, HTML, CSS and Javascript. I love what I am learning and am eager to join the development community.</p>
+        <p>The need for a bigger purpose and the desire for a better future pushed me to pursue software development. I wanted to attain a specific skill set that people need in the world today. When my baseball career came to an end, I needed something to fill that enormous hole. Becoming a software developer did exactly that.</p>
 
-        <p>
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-toggle="collapse"
-            data-target="#jobHistory"
-            aria-expanded="false"
-            aria-controler="jobHistory"
-          >
-            Job History
-          </button>
+        <p> I am currently enrolled at Bottega Tech where I am learning Ruby on Rails, HTML, CSS and Javascript as well as SQL. It is my goal to become a highly successful Ruby developer. I love what I am learning and am eager to join the development community.</p>
 
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-toggle="collapse"
-            data-target="#education"
-            aria-expanded="false"
-            aria-controler="education"
-          >
-            Education
-          </button>
-        </p>
+        
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#jobHistory"
+          aria-expanded="false"
+          aria-controler="jobHistory"
+        >
+          Job History
+        </button>
 
-        <p>
-          <div class="collapse" id="jobHistory">
-            <div class="card card-block">
-              Job 1
-            </div>
-            <div class="card card-block">
-              Job 2
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#education"
+          aria-expanded="false"
+          aria-controler="education"
+        >
+          Education
+        </button>
+      
+
+        <div class="collapse" id="jobHistory">
+          <div class="card card-block">
+            <div class="row">
+              <div class="col-md-3">
+                <%= image_tag "relevant.png", width: '100%', alt: "Relevant Inc.", class: 'relevant-logo' %>
+              </div>
+              <div class="col-md-9">
+                Junior Software Developer
+              </div>
             </div>
           </div>
+        </div>
 
-          <div class="collapse" id="education">
-            <div class="card card-block">
-              Bottega Tech
-            </div>
-            <div class="card card-block">
-              Utah Valley University
-            </div>
-            <div class="card card-block">
-              Salt Lake Community College
+        <div class="collapse" id="education">
+          <div class="card card-block">
+            <div class="row">
+              <div class="col-md-3">
+                <%= image_tag "bottega.jpg", width: '100%', alt: "Bottega", class: 'bottega-logo' %>
+              </div>
+              <div class="col-md-9">
+                Currently enrolled at Bottega Tech studying Ruby on Rails development.  
+              </div>
             </div>
           </div>
-        </p>
+          <div class="card card-block">
+            <div class="row">
+              <div class="col-md-3">
+                <%= image_tag "uvu.png", width: '100%', alt: "UVU", class: 'uvu-logo' %>
+              </div>
+              <div class="col-md-9">
+                Graduated from Utah Valley University in 2017 with a BS in Public Relations. 
+              </div>
+            </div>
+          </div>
+          <div class="card card-block">
+            <div class="row">
+              <div class="col-md-3">
+                <%= image_tag "slcc.png", width: '100%', alt: "SLCC", class: 'slcc-logo' %>
+              </div>
+              <div class="col-md-9">
+                Graduated from Salt Lake Community College in 2015 with an Associates of Science. 
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

@@ -108,6 +108,7 @@ h6, .h6, {
  */
 .cover {
   padding: 0 1.5rem;
+  margin-top: 175px;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -146,7 +147,7 @@ h6, .h6, {
 }
 
 .app-nav {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .app-nav span {
@@ -172,6 +173,7 @@ h6, .h6, {
 .app-footer {
   color: white;
   text-align: center;
+  margin-top: 10px;
 }
 
 .tech-news {
@@ -229,14 +231,36 @@ h6, .h6, {
   text-align: center;
 }
 
-
-/*.btn-primary {
-  background-color: #FF9633;
-  border: 1px solid grey;
+.btn-dark {
+  margin-right: 5px;
 }
 
-.btn-primary:hover {
-  background-color: #FFA34D;
-  border: 1px solid grey;
+@media (min-width: 40em) {
+   /*Pull out the header and footer */
+  /*.masthead {
+    position: fixed;
+    top: 0;
+  }*/
+  .mastfoot {
+    /*position: fixed;*/
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;  /*Must be percentage or pixels for horizontal alignment */
+  }
 }
-*/
+
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 65rem;
+  }
+}

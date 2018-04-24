@@ -1,7 +1,10 @@
 ready = ->
   Typed.new '.element',
-    strings: ['It is my pleasure to show you the work I have done as a professional Ruby on Rails Developer.']
-    typespeed: 0
+    strings: [
+      'Software development is the closest concept we have to magic.'
+      "It is a great combination between artistry and engineering."
+    ]
+    typeSpeed: 0
   return
 
 $(document).ready ready
